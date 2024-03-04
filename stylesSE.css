@@ -1,0 +1,90 @@
+/* -----------------Classes -----------------*/
+.about{
+    width: 450px;
+    margin: auto;
+}
+
+.about-team{
+    color: #000000;
+}
+
+.authors{
+    background-color: #f0f0f0;
+}
+
+.footer{
+    background-color: #9fa9a3; 
+}
+
+.howTo{
+    font-size:20px;
+}
+
+.icon-white{
+    color: #f0f0f0
+}
+
+.informationTextColor{
+    color: #707070
+}
+
+.logo{
+max-width: 125px;
+}
+
+.nb-background-color{
+    background-color: #9fa9a3
+
+}
+.nbMenuItem{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f0f0f0;
+}
+
+.overview{
+    background-color: #f0f0f0
+}
+
+.ovPadLeft{
+padding-left: 20px;
+}
+
+.ovPadRight{
+    padding-right: 20px;
+}
+
+.procedure{
+    background-color:#f0f0f0
+}
+
+.showcase {
+    background-color: #f0f0f0;
+}
+
+
+/*---------------------------------Underline Animation--------------------------------*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.35s ease-out;
+}
+  d
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}

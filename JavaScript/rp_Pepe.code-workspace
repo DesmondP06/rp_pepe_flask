@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Se2023/Javascript Lessons/Chart JS Examples"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "rp_Pepe"
+	}
+}

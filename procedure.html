@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesSE.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+    <!-- lg = large breakpoint, navbar-light = make text dark, headerBG = custom css BG color -->
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/bacterialogo.png" alt="E-coli Logo" class="img-fluid d-inline-block align-text-top logo">
+            </a>
+
+            <!-- Hamburger Menu Button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navbar menu with custom hover underline CSS animation-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- Links to hamburger menu button -->
+                <ul class="navbar-nav ms-auto">   <!-- ms-auto is margin spacing-->
+                    <li class="nav-item">
+                        <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Result</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--How to use the sensor-->
+    <section class="procedure">
+        <div class="container">
+          <br> <!-- Line break -->
+          <div class="text-center">
+            <h1 ><strong>Procedure and Methods</strong></h1>
+          </div>
+
+          <hr><br> <!-- Horizontal line and line break -->
+    
+          <table class="table table-hover text-center table-light table-bordered border-dark-subtle ">
+            <thead>
+              <tr class="table-active">
+                <th><h3><Strong>Step</Strong></h3></th>
+                <th><h3><strong>Description</strong></h3></th>
+                <th><h3><Strong>Image</Strong></h3></th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>1</h3>
+                </th> <!-- scope="row" specifies header cell is the header for a row -->
+                <td class = "text-left">
+                  <h3 class = "informationTextColor">Creation of the Indole-3-Carbinol and Ethanol Solutions</h3>
+                </td>
+                <td class="text-center"><img src="img/i3csolutions.jpeg" alt="Indole-3-Carbinol solutions in test tube"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>2</h3>
+                </th>
+                <td>
+                  <h3 class = "informationTextColor">Creation of the N-Acetylcysteine and Water Solutions</h3>
+                </td>
+                <td class="text-center"><img src="img/nacsolutions.jpeg" alt="N-Acetylcysteine solutions in test tube"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>3</h3>
+                </th>
+                <td>
+                  <h3 class = "informationTextColor">Creating Plates for Bacterial Culture</h3>
+                </td>
+                <td class="text-center"><img src="img/creatingplates.jpeg" alt="Bacterial culture plates"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>4</h3>
+                </th>
+                <td>
+                  <h3 class = "informationTextColor">Culturing of E. Coli and Introduction of Treatments</h3>
+                </td>
+                <td class="text-center"><img src="img/bacterialculture.jpeg" alt="Bacterial culture plates with treatment filter disks"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>5</h3>
+                </th>
+                <td>
+                  <h3 class = "informationTextColor">Measuring Area of Limited Growth with Dial Calipers</h3>
+                </td>
+                <td class="text-center"><img src="img/dialcaliper.png" alt="Dial caliper"></td>
+              </tr>
+              <tr class="align-middle">
+                <th scope="row">
+                  <h3>6</h3>
+                </th>
+                <td>
+                  <h3 class = "informationTextColor">Statistical Analysis of the Data in Excel</h3>
+                </td>
+                <td class="text-center"><img src="img/excellogo.png" alt="Excel logo"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+      </section>
+          
+    <footer class = "p-5 footer text-light text-center position-relative">
+        <div class = "container">
+            <p class = "lead icon-white">Copyright &copy; Se 2023 Bootstrap Demo</p>
+            <a href="#" class = "position-absolute bottom-0 end-0 p-5">
+                <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+            </a>
+
+        </div>
+    </footer>
+</body>
+</html>

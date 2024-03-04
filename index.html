@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="stylesSE.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous" defer></script>
+</head>
+
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+    <!-- lg = large breakpoint, navbar-light = make text dark, headerBG = custom css BG color -->
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/bacterialogo.png" alt="E-coli Logo" class="img-fluid d-inline-block align-text-top logo">
+            </a>
+
+            <!-- Hamburger Menu Button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navbar menu with custom hover underline CSS animation-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- Links to hamburger menu button -->
+                <ul class="navbar-nav ms-auto">   <!-- ms-auto is margin spacing-->
+                    <li class="nav-item">
+                        <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Showcase-->
+    <section class = "showcase text-dark p-2 text-center"> <!--Showcase has custom CSS-->
+        <div class = "container">
+            <div class="row">
+                <div class = "col-sm-12 p-0 d-flex align-items-center"> <!--img-fluid will not expnad the image larger than the container and will scale image down if necessary-->
+                    <div class="container">
+                        <br>
+                        <h1 class = "dislplay-4"><strong>The Growth Inhibiting Effects of Indole-3-Carbinol (I3C) <br>and N-Acetylcysteine (NAC) on E. coli cells</strong></h1>
+                        <h2 class >An In-Vitro Study</h2>
+                        
+                        <hr>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Overview-->
+    <section class = "overview text-dark p-4 text-left">
+        <div class="container">
+            <div class="row">
+                
+                <div class = "col-sm-8 p-4">
+                    <h1 class = "ovPadRight">Historical Persepective</h1>
+                    <ul class = "lead overview-font ovPadLeft ovPaddingRight informationTextColor">
+                        <li>Bacterial resistance to traditional synthetic antibiotics is on the rise due to overpresciption</li>
+                        <br>
+                        <li>Plant materials have been shown to be promising alternatives to synthetic antibacterial compounds</li>
+                        <br>
+                        <li>Indole-3-Carbinol (I3C) has been shown to exhibit fungicidal and bactericidal behavior by increasing cellular ROS</li>
+                        <br>
+                        <li>N-Acetylcysteine (NAC) has previously been assessed for its ability to break up bacterial biofilms</li>
+                    </ul>
+                </div>
+                <div class = "col-sm-4 p-4">
+                    <img class = "img-fluid" src = "img/spreadofantibioticresistance.png" alt = "Graph of the increase in antibiotic resistance in bacteria">
+                </div>
+            </div>   
+            <div class="row">
+                <div class = "col-sm-12 p-4">
+                    <h1 class = "Left">Research Goal and Hypothesis</h1>
+                    <ul class = "lead overview-font ovPadLeft informationTextColor">
+                            <li>This study aimed to elucidate the effects of I3C and NAC on the growth and survivability of E. coli cultures</li>
+                            <br>
+                            <li>Because I3C and NAC have previously exhibited antimicrobial and 
+                                antibacterial properties, and the introduction of these compounds 
+                                into different types of bacteria has resulted in apoptosis-like cell death, 
+                                we believed there would be a dose-dependent effect on the growth and survivability 
+                                of E. coli when these compounds were introduced in different concentrations.</li>
+                            <br>
+                            <li>Filter disks containing solutions with different 
+                                concentrations of these two compounds were introduced to E. coli cultures</li>
+                            <br>
+                            <li>NAC did not have an affect on the growth or survivability of E. coli</li>
+                            <br>
+                            <li>I3C had a dose-dependant effect on the growth and survivability of E. coli</li>
+                        </ul>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class = "p-5 footer text-light text-center position-relative">
+        <div class = "container">
+            <p class = "lead icon-white">Copyright &copy; Se 2023 Bootstrap Demo</p>
+            <a href="#" class = "position-absolute bottom-0 end-0 p-5">
+                <i class = "bi bi-arrow-up-circle h2 icon-white"></i>
+            </a>
+
+        </div>
+    </footer>
+</body>
+</html>
